@@ -1,0 +1,58 @@
+# [Created by task 2.6.2 7/5/2022 22:17:57]
+# Taskwarrior program configuration file.
+# For more documentation, see https://taskwarrior.org or try 'man task', 'man task-color',
+# 'man task-sync' or 'man taskrc'
+
+# Here is an example of entries that use the default, override and blank values
+#   variable=foo   -- By specifying a value, this overrides the default
+#   variable=      -- By specifying no value, this means no default
+#   #variable=foo  -- By commenting out the line, or deleting it, this uses the default
+
+# You can also refence environment variables:
+#   variable=$HOME/task
+#   variable=$VALUE
+
+search.case.sensitive=no
+
+# Use the command 'task show' to see all defaults and overrides
+
+# Files
+data.location=/Users/hugochisholm/.task
+
+# To use the default location of the XDG directories,
+# move this configuration file from ~/.taskrc to ~/.config/task/taskrc and uncomment below
+
+#data.location=~/.local/share/task
+#hooks.location=~/.config/task/hooks
+
+# Color theme (uncomment one to use)
+#include /usr/local/Cellar/task/2.6.2/share/doc/task/rc/light-16.theme
+#include /usr/local/Cellar/task/2.6.2/share/doc/task/rc/light-256.theme
+#include /usr/local/Cellar/task/2.6.2/share/doc/task/rc/dark-16.theme
+include /usr/local/Cellar/task/2.6.2/share/doc/task/rc/dark-256.theme
+#include /usr/local/Cellar/task/2.6.2/share/doc/task/rc/dark-red-256.theme
+#include /usr/local/Cellar/task/2.6.2/share/doc/task/rc/dark-green-256.theme
+#include /usr/local/Cellar/task/2.6.2/share/doc/task/rc/dark-blue-256.theme
+#include /usr/local/Cellar/task/2.6.2/share/doc/task/rc/dark-violets-256.theme
+#include /usr/local/Cellar/task/2.6.2/share/doc/task/rc/dark-yellow-green.theme
+#include /usr/local/Cellar/task/2.6.2/share/doc/task/rc/dark-gray-256.theme
+#include /usr/local/Cellar/task/2.6.2/share/doc/task/rc/dark-gray-blue-256.theme
+#include /usr/local/Cellar/task/2.6.2/share/doc/task/rc/solarized-dark-256.theme
+#include /usr/local/Cellar/task/2.6.2/share/doc/task/rc/solarized-light-256.theme
+#include /usr/local/Cellar/task/2.6.2/share/doc/task/rc/no-color.theme
+
+# inthe.am configuration for syncing tasks
+taskd.certificate=~/.task/private.certificate.pem
+taskd.key=~/.task/private.key.pem
+taskd.ca=~/.task/ca.cert.pem
+taskd.server=inthe.am:53589
+taskd.credentials=inthe_am/hugochisholm/c6b33e0d-105a-48cc-83d9-00b276cc7ce5
+taskd.trust=strict
+news.version=2.6.0
+
+# Custom reports
+report.work.description=List of work projects
+report.work.columns=id,project.parent,tags,description
+report.work.labels='ID,Proj,Tags,Desc'
+report.work.sort=project+\/,entry+
+report.work.filter=status:pending
