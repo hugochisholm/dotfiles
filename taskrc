@@ -52,7 +52,7 @@ news.version=2.6.0
 
 # Custom reports
 report.work.description=List of work projects
-report.work.columns=id,project.parent,tags,description
-report.work.labels='ID,Proj,Tags,Desc'
-report.work.sort=project+\/,entry+
+report.work.columns=id,priority,project.full,tags,description
+report.work.labels=ID,Priority,Project,Tags,Description
+report.work.sort=priority-,project+\/,entry+
 report.work.filter=status:pending
