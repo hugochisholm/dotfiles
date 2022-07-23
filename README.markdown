@@ -1,5 +1,4 @@
 # Dotfiles
----
 A fork of [Michael J. Smalley's dotfiles project](https://github.com/michaeljsmalley/dotfiles) that I found useful as a starting point. See [original blog post](http://blog.smalleycreative.com/tutorials/using-git-and-github-to-manage-your-dotfiles/) that describes the goal and setup in depth.
 
 Not many modification other than removing those config files that Michael had that I had not yet had a use for.  
@@ -8,8 +7,9 @@ Todo:
 - [ ] Tmux config
 - [ ] List of other apps that need configs!
 
-## Original instructions
 ---
+
+## Original instructions
 This repository includes all of my custom dotfiles.  They should be cloned to
 your home directory so that the path is `~/dotfiles/`.  The included setup
 script creates symlinks from your home directory to the files which are located
@@ -35,7 +35,6 @@ So, to recap, the install script will:
 5. If zsh is installed, run a `chsh -s` to set it as the default shell.
 
 ### Installation
----
 
 ``` bash
 git clone git://github.com/michaeljsmalley/dotfiles ~/dotfiles
