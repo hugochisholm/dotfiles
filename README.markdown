@@ -5,6 +5,7 @@ Not many modification other than removing those config files that Michael had th
 
 Todo:
 - [ ] Tmux config
+- [ ] Taskwarrior config (include sync, but not actual task data)
 - [ ] List of other apps that need configs!
 
 ---
