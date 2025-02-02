@@ -4,8 +4,11 @@ A fork of [Michael J. Smalley's dotfiles project](https://github.com/michaeljsma
 Not many modification other than removing those config files that Michael had that I had not yet had a use for.  
 
 Todo:
-- [ ] Tmux config
+- [x] Tmux config
 - [ ] Taskwarrior config (include sync, but not actual task data)
+- [ ] NeoVim config
+- [ ] Ghostty config
+- [ ] Zed config (maybe??)
 - [ ] List of other apps that need configs!
 
 ---
