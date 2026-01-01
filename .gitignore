@@ -5,3 +5,9 @@ chef/
 private
 *.DS_Store
 ./config/
+config/1Password/ssh
+config/github-copilot
+config/raycast
+config/op
+config/iterm2
+config/zed

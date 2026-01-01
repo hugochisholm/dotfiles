@@ -1,0 +1,9 @@
+# Ghostty Config! #
+
+shell-integration-features = ssh-terminfo,ssh-env
+
+## Theme ##
+
+theme = Brogrammer
+
+font-family = "JetBrainsMono Nerd Font Mono"
