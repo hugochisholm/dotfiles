@@ -11,3 +11,4 @@ config/raycast
 config/op
 config/iterm2
 config/zed
+config/nvim/lua/plugins/vim-be-good.lua
